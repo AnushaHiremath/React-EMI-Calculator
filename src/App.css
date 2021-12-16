@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+
+.ETableCellText{
+  background-color: gray;
+  color:white !important;
+  font-size: 16px !important;
+}
+
+.ETableCellValue{
+  text-align: right !important;
+  font-size: 18px !important;
+}
+
+.CalApp{
+  width: 50%;
+  border: 2px #ccc solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  background-color: lemonchiffon;
+}
+
+.CalHeading{
+  text-align: center;
+  color: firebrick;
+}
+
+@media (prefers-reduced-motion: no-performance) {
+    .App-logo{
+      animation: App-logo-spin infinite 20s li;
+    }
+}
+
